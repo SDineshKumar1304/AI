@@ -5,12 +5,6 @@
 
 This repository hosts a collection of projects spanning diverse domains, from gesture-based game control to language learning and psychological advice via Alexa.
 
-## Recent Changes
-
-- **GestureGameControl:** Add files via upload (yesterday)
-- **LLM:** Add files via upload (yesterday)
-- **SR_Physc_Advice_Alexa:** Add files via upload (yesterday)
-
 ## Projects
 
 ### GestureGameControl
