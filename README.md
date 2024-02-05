@@ -15,11 +15,11 @@ This project focuses on exploring and implementing gesture-based game control me
 
 LLM contains language learning modules designed to facilitate and enhance language acquisition. Explore the modules and contribute to language education.
 
-### SR_Physc_Advice_Alexa
+### SR_Physc_Advice_Alexa (streamlit Web App)
 
 This project introduces an Alexa skill aimed at providing psychological advice. Explore how technology can contribute to mental well-being and consider contributing to make it even more impactful.
 
-### Thirukkural Chatbot
+### Thirukkural Chatbot (tkinter Prototype)
 
 The Thirukkural project is centered around the classical Tamil text, Thirukkural. Dive into the repository to explore the cultural and linguistic aspects related to this project.
 
