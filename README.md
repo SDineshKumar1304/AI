@@ -30,4 +30,5 @@ The Thirukkural project is centered around the classical Tamil text, Thirukkural
 
 We welcome contributions from the community. Whether it's bug reports, feature requests, or direct code contributions, your involvement is highly appreciated. Please refer to the contributing guidelines in each project's directory.
 
+Thank You
 
