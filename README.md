@@ -17,7 +17,7 @@ LLM contains language learning modules designed to facilitate and enhance langua
 
 ### SR_Physc_Advice_VoiceBot (streamlit Web App)
 
-This project introduces an Alexa skill aimed at providing psychological advice. Explore how technology can contribute to mental well-being and consider contributing to make it even more impactful.
+This project introduces an VoiceBot skill aimed at providing psychological advice. Explore how technology can contribute to mental well-being and consider contributing to make it even more impactful.
 ![image](https://github.com/SDineshKumar1304/AI/assets/125432987/ad34e1fa-365f-45af-a864-092cbf9818f5)
 
 
