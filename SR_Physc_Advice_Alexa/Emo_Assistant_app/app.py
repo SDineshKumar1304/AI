@@ -22,8 +22,19 @@ emotion = pipeline('sentiment-analysis', model='arpanghoshal/EmoRoBERTa')
 fieldnames = ['Datetime', 'Recognized Text', 'Emotion Label', 'Emotion Score']
 csv_file_path = "emotion_data.csv"
 
-# Initialize Streamlit app
-st.title("Emotion Analysis Chatbot")
+st.set_page_config(
+    page_title="Emotion Analysis",
+    page_icon="😊",
+    layout="wide"
+)
+
+
+
+
+st.title("Emotion Analysis Voicebot  💕")
+
+
+
 
 def chatbot_response(sentiment):
     if sentiment == "positive":
@@ -168,11 +179,11 @@ def speak(text):
 def wishme():
     hour = int(time.strftime("%H"))
     if 0 <= hour < 12:
-        speak("Good morning My Boss!")
+        speak("Good morning , My name is VoiceBot DDN , How Can I Help You")
     elif 12 <= hour < 18:
-        speak("Good afternoon My Boss!")
+        speak("Good afternoon , My name is VoiceBot DDN , How Can I Help You")
     else:
-        speak("Good evening My Boss!")
+        speak("Good evening , My name is VoiceBot DDN , How Can I Help You")
 
 def speak(text):
     try:
@@ -198,12 +209,28 @@ def takeCommand():
 
 def searchWikipedia(query):
     try:
-        result = wikipedia.summary(query, sentences=2)
+        # Get the full Wikipedia page content for the query
+        page = wikipedia.page(query)
+        
+        # Extract and display all sentences from the page
+        sentences = page.content.split('. ')
+        
+        st.write("According to my Knowledge:")
+        for sentence in sentences:
+            st.write(sentence)
+        
+        # Speak the result using text-to-speech
         speak("According to my Knowledge")
-        speak(result)
+        speak('. '.join(sentences))
+        
     except wikipedia.exceptions.DisambiguationError as e:
+        # Handle DisambiguationError, which occurs when there are multiple possible results
+        st.warning("There are multiple possible results. Please specify your query.")
         speak("There are multiple possible results. Please specify your query.")
+        
     except wikipedia.exceptions.PageError as e:
+        # Handle PageError, which occurs when no information is found for the given query
+        st.warning("I couldn't find any information about that.")
         speak("I couldn't find any information about that.")
 
 def openWebsite(url):
@@ -265,17 +292,18 @@ if __name__ == "__main__":
             if "exit" in command:
                 st.write("Goodbye!")
                 break
-            elif "tell me about" in command:
-                query = re.search('tell me about (.+)', command).group(1)
+            elif "about" in command:
+                query = re.search('about (.+)', command).group(1)
                 searchWikipedia(query)
+                
             elif "open website" in command:
                 url = re.search('open website (.+)', command).group(1)
                 openWebsite(url)
-            elif "tell me the time" in command:
+            elif "time" in command:
                 current_time = time.strftime("%I:%M %p")
                 st.write(f"The current time is {current_time}.")
                 speak(f"The current time is {current_time}.")
-            elif "analyse emotions" in command:
+            elif "emotion" in command:
                 analyze_emotion_from_speech()
             else:
                 st.write("I'm sorry, I don't know how to do that.")
