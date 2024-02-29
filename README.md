@@ -4,7 +4,7 @@
 
 This repository hosts a collection of projects Spanning AI Domain
 
- ## Project 1
+## Project 1
 
 ### GestureGameControl
 
@@ -12,7 +12,7 @@ This project focuses on exploring and implementing gesture-based game control me
 
 ## Project 2
 ## LLM PROMPT PARSING
-- Constructed a Large Language Model for Prompt Parsing utilizing the GPT TURBO-3.5. 
+- Constructed a Large Language Model for Prompt Parsing utilizing the GPT TURBO-3.5. 
 - Evaluated LLM responses where there isn't a single "right answer"
 
 ## PROJECT 3
