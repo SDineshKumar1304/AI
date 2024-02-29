@@ -15,20 +15,8 @@ This project focuses on exploring and implementing gesture-based game control me
 - Constructed a Large Language Model for Prompt Parsing utilizing the GPT TURBO-3.5. 
 - Evaluated LLM responses where there isn't a single "right answer"
 
+
 ## PROJECT 3
- ##  AI Multi-Modal Emotion Analysis VoiceBot for Personalized and Inclusive Conversations using BERT LLM model
-
-This project introduces an VoiceBot skill aimed at providing psychological advice. Explore how technology can contribute to mental well-being and consider contributing to make it even more impactful.
-
-## Existing System
-![Screenshot 2024-02-27 222458](https://github.com/SDineshKumar1304/AI/assets/125432987/7046c8fd-e644-4a54-9c4d-dfecfd6a8076)
-
-## Proposed System:
-![image](https://github.com/SDineshKumar1304/AI/assets/125432987/95473424-dd2b-4b10-a592-d2eefc55d72a)
-
-
-
-## PROJECT 4
 ### Thirukural Chatbot: AI-Powered Insights into Tamil Literature's Timeless Wisdom
 
 ### Problem Scenario:
@@ -53,9 +41,5 @@ Chapter: Friendship
 This verse highlights the importance of genuine friendship, comparing it to the 
 essence that ϐlowers bring to a garden.
 
-## Contributing
-
-We welcome contributions from the community. Whether it's bug reports, feature requests, or direct code contributions, your involvement is highly appreciated. Please refer to the contributing guidelines in each project's directory.
-
-Thank You
+# Thank You
 
