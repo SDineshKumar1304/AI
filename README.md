@@ -24,7 +24,8 @@ This project introduces an VoiceBot skill aimed at providing psychological advic
 ![Screenshot 2024-02-27 222458](https://github.com/SDineshKumar1304/AI/assets/125432987/7046c8fd-e644-4a54-9c4d-dfecfd6a8076)
 
 ## Proposed System:
-![Screenshot 2024-02-27 221951](https://github.com/SDineshKumar1304/AI/assets/125432987/c5f4d3f2-9a77-47e2-aeb2-208183604ac0)
+![image](https://github.com/SDineshKumar1304/AI/assets/125432987/95473424-dd2b-4b10-a592-d2eefc55d72a)
+
 
 
 ## PROJECT 4
