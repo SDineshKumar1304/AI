@@ -2,16 +2,20 @@
 
 ## Introduction
 
-This repository hosts a collection of projects spanning diverse domains, from gesture-based game control to language learning and psychological advice via Alexa.
+This repository hosts a collection of projects Spanning AI Domain
 
-## Project 1
+ ## Project 1
 
 ### GestureGameControl
 
 This project focuses on exploring and implementing gesture-based game control mechanisms. Feel free to check out the latest developments and contribute to the innovation.
-## LLM PROMPT PARSING
 
-## PROJECT 2
+## Project 2
+## LLM PROMPT PARSING
+- Constructed a Large Language Model for Prompt Parsing utilizing the GPT TURBO-3.5. 
+- Evaluated LLM responses where there isn't a single "right answer"
+
+## PROJECT 3
  ##  AI Multi-Modal Emotion Analysis VoiceBot for Personalized and Inclusive Conversations using BERT LLM model
 
 This project introduces an VoiceBot skill aimed at providing psychological advice. Explore how technology can contribute to mental well-being and consider contributing to make it even more impactful.
@@ -23,7 +27,7 @@ This project introduces an VoiceBot skill aimed at providing psychological advic
 ![Screenshot 2024-02-27 221951](https://github.com/SDineshKumar1304/AI/assets/125432987/c5f4d3f2-9a77-47e2-aeb2-208183604ac0)
 
 
-## PROJECT 3
+## PROJECT 4
 ### Thirukural Chatbot: AI-Powered Insights into Tamil Literature's Timeless Wisdom
 
 ### Problem Scenario:
