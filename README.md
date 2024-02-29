@@ -10,13 +10,8 @@ This repository hosts a collection of projects Spanning AI Domain
 
 This project focuses on exploring and implementing gesture-based game control mechanisms. Feel free to check out the latest developments and contribute to the innovation.
 
-## Project 2
-## LLM PROMPT PARSING
-- Constructed a Large Language Model for Prompt Parsing utilizing the GPT TURBO-3.5. 
-- Evaluated LLM responses where there isn't a single "right answer"
 
-
-## PROJECT 3
+## PROJECT 2
 ### Thirukural Chatbot: AI-Powered Insights into Tamil Literature's Timeless Wisdom
 
 ### Problem Scenario:
