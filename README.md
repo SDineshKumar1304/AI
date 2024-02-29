@@ -15,7 +15,9 @@ This project focuses on exploring and implementing gesture-based game control me
 ### SR_Physc_Advice_VoiceBot (streamlit Web App  Multimodel Integration BERT) 
 
 This project introduces an VoiceBot skill aimed at providing psychological advice. Explore how technology can contribute to mental well-being and consider contributing to make it even more impactful.
-![image](https://github.com/SDineshKumar1304/AI/assets/125432987/ad34e1fa-365f-45af-a864-092cbf9818f5)
+
+![Screenshot 2024-02-27 221951](https://github.com/SDineshKumar1304/AI/assets/125432987/c5f4d3f2-9a77-47e2-aeb2-208183604ac0)
+
 
 
 ### Thirukkural Chatbot (tkinter Prototype)
