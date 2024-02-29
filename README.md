@@ -12,7 +12,7 @@ This repository hosts a collection of projects spanning diverse domains, from ge
 This project focuses on exploring and implementing gesture-based game control mechanisms. Feel free to check out the latest developments and contribute to the innovation.
 
 
-### SR_Physc_Advice_VoiceBot (streamlit Web App  Multimodel Integration BERT) 
+### SR_Physc_Advice_VoiceBot LLM (streamlit Web App  Multimodel Integration BERT LLM) 
 
 This project introduces an VoiceBot skill aimed at providing psychological advice. Explore how technology can contribute to mental well-being and consider contributing to make it even more impactful.
 
